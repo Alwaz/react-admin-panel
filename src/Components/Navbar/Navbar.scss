@@ -1,0 +1,87 @@
+.navbar{
+    // background-color: blue;
+    padding: 12px;
+    border-bottom:0.5px solid rgb(230, 227, 277) ;
+
+    .wraper {
+        // background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .search {
+            // background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            color: #5c5b5c;
+            border-radius: 5px;
+            border:0.5px solid rgb(230, 227, 277); ;
+
+
+            .icon {
+                cursor: pointer;
+            }
+            input {
+                width: 100%;
+                padding: 5px;
+                border: none;
+                outline: none;
+                color: #5c5b5c;
+                border-right: 0.5px solid rgb(230, 227, 277);
+
+                &::placeholder {
+                    color: #a7a6a7;
+                    font-size: 14px;
+                  }
+                
+            }
+        }
+
+        .items{
+            display: flex;
+            align-items: center;
+            
+            justify-content: space-evenly;
+            width: 30%;
+
+            .item {
+                display: flex;
+                font-size: 12px;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+                color: #5c5b5c;
+                position: relative;
+                
+
+                .counter {
+                    background-color: red;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 13px;
+                    height: 14px;
+                    font-size: 10px;
+                    font-weight: bold;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+
+                }
+
+                .avatar {
+                    width: 30px;
+                    height: 30px;
+                    
+                    
+                }
+
+               
+            }
+        }
+    }
+}
