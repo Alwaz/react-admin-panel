@@ -2,8 +2,14 @@
   display: flex;
 
   .home__container {
-    // background-color: aqua;
-
     flex: 6;
+
+    .widgets {
+      // background-color: aqua;
+      display: flex;
+     justify-content: space-around;
+     margin-top: 20px;
+     
+    }
   }
 }

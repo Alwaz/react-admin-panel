@@ -1,0 +1,73 @@
+.widget {
+    display: flex;
+    gap: 20px;
+    // background-color: azure;
+    width: 20%;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    height: 90px;
+    box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+    -webkit-box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+    -moz-box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+    
+
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        align-items: center;
+
+        .icon {
+            align-self: flex-end;
+            justify-content: center;
+            display: flex;
+            cursor: pointer;
+            font-size: 18px;
+           
+        }
+    }
+
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .text {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #999;
+        }
+        .number {
+            font-size: 28px;
+            font-weight: 300;
+            
+            
+        }
+
+        .seeAll {
+            background-color: #fff;
+            border-bottom: 1px solid grey;
+            font-size: 12px;
+            width: max-content
+        }
+    }
+
+    
+    .percentage {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        
+        &.positive {
+            color: green;
+        }
+
+        &.negative {
+            color: red;
+        }
+    }
+}
