@@ -4,12 +4,18 @@
   .home__container {
     flex: 6;
 
-    .widgets {
+    .widgets, .charts {
       // background-color: aqua;
       display: flex;
      justify-content: space-around;
      margin-top: 20px;
      
+    }
+
+    .charts {
+      padding: 5px  20px 5px 20px;
+      // background-color: aqua;
+      gap: 10px;
     }
   }
 }

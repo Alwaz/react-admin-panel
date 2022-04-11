@@ -5,7 +5,7 @@
     width: 20%;
     justify-content: space-between;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 90px;
     box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
     -webkit-box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
@@ -15,8 +15,7 @@
 
     .right {
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;        
         justify-content: space-between;
         align-items: center;
 
@@ -43,7 +42,8 @@
         }
         .number {
             font-size: 28px;
-            font-weight: 300;
+            font-weight: 400;
+            color: #2d3c4c;
             
             
         }
