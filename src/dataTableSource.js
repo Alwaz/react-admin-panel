@@ -1,6 +1,6 @@
 // columns
 export const userColumns = [
-  { field: "id", headername: "ID", width: 70 },
+  { field: "id", headername: "ID", width: 50 },
   {
     field: "user",
     headername: "User",
@@ -12,6 +12,24 @@ export const userColumns = [
           {row.username}
         </div>
       );
+    },
+  },
+  {
+    field: "email",
+    headername: "Email",
+    width: 170,
+  },
+  {
+    field: "age",
+    headername: "Age",
+    width: 100,
+  },
+  {
+    field: "status",
+    headername: "Satus",
+    width: 100,
+    renderCell: ({ row }) => {
+      return <div className={`statusCell ${row.status}`}>{row.status}</div>;
     },
   },
 ];
