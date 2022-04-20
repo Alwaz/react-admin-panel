@@ -37,25 +37,37 @@
       color: crimson;
       background-color: rgba(255, 81, 0, 0.11);
   }
-
-  .actionbtns{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-S
-    .viewBtn {
-      padding: 2px 5px;
-      border-radius: 5px;
-      color: blue;
-      border: 1px solid rgba(38, 0, 255, 0.185);
-  
-      
-    }
-  }
-
- 
-
-
 }
 
+
+
+.actionbtns{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+ 
+
+  .viewBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid rgba(38, 0, 255, 0.185); 
+    
+      &:hover{
+        background-color: rgba(0, 204, 255, 0.178);
+      }
+  }
+
+  .deleteBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+    &:hover{
+      background-color: rgba(255, 0, 0, 0.158);
+    }
+    border: 1px solid rgba(255, 94, 0, 0.185);  
+  }
+}
 }
