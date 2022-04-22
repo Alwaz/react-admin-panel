@@ -1,9 +1,9 @@
 // columns
 export const userColumns = [
-  { field: "id", headername: "ID", width: 50 },
+  { field: "id", headerName: "ID", width: 50 },
   {
     field: "user",
-    headername: "User",
+    headerName: "User",
     width: 230,
     renderCell: ({ row }) => {
       return (
@@ -16,17 +16,17 @@ export const userColumns = [
   },
   {
     field: "email",
-    headername: "Email",
+    headerName: "Email",
     width: 170,
   },
   {
     field: "age",
-    headername: "Age",
+    headerName: "Age",
     width: 100,
   },
   {
     field: "status",
-    headername: "Satus",
+    headerName: "Satus",
     width: 100,
     renderCell: ({ row }) => {
       return <div className={`statusCell ${row.status}`}>{row.status}</div>;

@@ -7,7 +7,7 @@ const DataTable = () => {
   const actionColumn = [
     {
       field: "action",
-      headername: "Action",
+      headerName: "Action",
       width: 200,
       renderCell: () => {
         return (

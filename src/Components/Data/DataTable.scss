@@ -52,7 +52,7 @@
     border-radius: 5px;
     color: blue;
     cursor: pointer;
-    border: 1px solid rgba(38, 0, 255, 0.185); 
+    border: 1px dotted rgba(38, 0, 255, 0.185); 
     
       &:hover{
         background-color: rgba(0, 204, 255, 0.178);
@@ -62,12 +62,12 @@
   .deleteBtn {
     padding: 2px 5px;
     border-radius: 5px;
-    color: red;
+    color: crimson;
     cursor: pointer;
     &:hover{
       background-color: rgba(255, 0, 0, 0.158);
     }
-    border: 1px solid rgba(255, 94, 0, 0.185);  
+    border: 1px dotted rgba(255, 94, 0, 0.185);  
   }
 }
 }

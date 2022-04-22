@@ -1,0 +1,48 @@
+.details { 
+    display: flex;
+    
+
+ .content {
+     background-color: rgba(128, 128, 128, 0.144);;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     border: 1px solid rgba(128, 128, 128, 0.144);
+
+     .imgContent {
+         width: 100%;
+         // object-fit: cover;
+     }
+ }
+
+ .itemDetails {
+
+    padding-left: 20px;
+    
+     .items {
+         // background-color: azure;
+         font-size: 14px;
+         margin-bottom: 10px;
+     
+     }
+     .name {
+         color: gray;
+         font-size: 25px;
+         margin-bottom: 10px;
+     }
+
+     .items {
+         color: gray;
+
+         .itemKey {
+             font-weight: bold;
+         }
+         .itemValue {
+             font-weight: 300;
+         }
+     }
+ }
+
+}
+
+
