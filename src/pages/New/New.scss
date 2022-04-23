@@ -3,6 +3,96 @@
   
     .new__container {
       flex: 6;
+
+      .top, .bottom {
+        border-radius: 10px;
+        box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+       -webkit-box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+       -moz-box-shadow: 9px 7px 20px -3px rgba(167,166,167,0.75);
+       margin: 20px;
+       padding: 20px;
+       display: flex;
+
+         h1 {
+             color: lightgray;
+             font-size: 16px;
+         }
+
+        .left {
+            flex: 1;
+            text-align: center;
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+
+        .right {
+            flex: 2;
+            
+            
+
+
+            form {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                
+               
+                
+                .formInput {
+                    width: 40%;
+                    
+                     label {
+                         display: flex;
+                         align-items: center;
+                         gap: 10px;
+                         font-weight: bold;
+                         color: rgb(88, 87, 87);
+
+                          .icon  {
+                              color: gray;
+                              cursor: pointer;
+                          }
+                     }
+                    
+                   
+                   
+
+                    input {   
+                        width: 100%; 
+                        padding: 10px;                   
+                        outline: none;
+                        border: none;
+                        border-bottom: 1px solid gray;
+                        transition: .3s;
+                   
+                         &:focus {
+                             background-color: rgba(211, 211, 211, 0.274);
+                         }
+                    }
+                }
+
+                button {
+                    width: 150px;
+                    padding: 10px;
+                    border: none;
+                    background-color: teal;
+                    color: white;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+            }
+        }
+      }
+
+
+      
+
     }
 
 }
