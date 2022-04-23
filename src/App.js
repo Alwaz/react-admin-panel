@@ -28,7 +28,7 @@ function App() {
               <Route path=":productsId" element={<SinglePage />} />
               <Route
                 path="new"
-                element={<New input={productInputs} title="Add New Product" />}
+                element={<New inputs={productInputs} title="Add New Product" />}
               />
             </Route>
           </Route>
