@@ -21,7 +21,7 @@ const Widget = ({ type }) => {
         icon: (
           <PersonOutlineOutlinedIcon
             className="icon"
-            style={{ background: "#ffd5d7", color: "red" }}
+            style={{ background: "#ffd5d72f", color: "red" }}
           />
         ),
       };
@@ -34,7 +34,7 @@ const Widget = ({ type }) => {
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
-            style={{ background: "#fbecd1", color: "#d4b763" }}
+            style={{ background: "#fbecd13b", color: "#d4b763" }}
           />
         ),
       };
@@ -47,7 +47,7 @@ const Widget = ({ type }) => {
         icon: (
           <AttachMoneyOutlinedIcon
             className="icon"
-            style={{ background: "#cde7cd", color: "#69af68" }}
+            style={{ background: "#cde7cd31", color: "#69af68" }}
           />
         ),
       };
@@ -60,7 +60,7 @@ const Widget = ({ type }) => {
         icon: (
           <AccountBalanceWalletIcon
             className="icon"
-            style={{ background: "#e5cde7", color: "#6f1f70" }}
+            style={{ background: "#e5cde741", color: "#6f1f70" }}
           />
         ),
       };

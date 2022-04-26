@@ -45,7 +45,7 @@ const Chart = ({ aspect, title }) => {
           </defs>
           <XAxis dataKey="name" />
 
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="3 3" className="chartGrid" />
           <Tooltip />
           <Area
             type="monotone"

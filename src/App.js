@@ -5,10 +5,11 @@ import New from "./pages/New/New";
 import SinglePage from "./pages/SinglePage/SinglePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { userInputs, productInputs } from "../src/formSource";
+import "./style/dark.scss";
 
 function App() {
   return (
-    <>
+    <div className="app dark">
       <BrowserRouter>
         <Routes>
           <Route path="/">
@@ -35,7 +36,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       ,
-    </>
+    </div>
   );
 }
 
