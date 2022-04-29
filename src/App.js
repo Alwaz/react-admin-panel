@@ -1,5 +1,5 @@
 import Home from "./pages/Home/Home";
-import Login from "./pages/Login/Login";
+
 import List from "./pages/List/List";
 import New from "./pages/New/New";
 import SinglePage from "./pages/SinglePage/SinglePage";
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />
+            {/* <Route path="login" element={<Login />} /> */}
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<SinglePage />} />

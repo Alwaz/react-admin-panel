@@ -11,8 +11,6 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
-
-
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
@@ -28,10 +26,12 @@ const Sidebar = () => {
         <div className="middle">
           <ul>
             <p className="title">MAIN</p>
-            <li>
-              <DashboardIcon className="icon" />
-              <span>Dasboard</span>
-            </li>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <li>
+                <DashboardIcon className="icon" />
+                <span>Dasboard</span>
+              </li>
+            </Link>
             <p className="title">LISTS</p>
             <Link to="/users" style={{ textDecoration: "none" }}>
               <li>
